@@ -39,53 +39,15 @@ video {
   vertical-align: middle;
 }
 
-.image-and-text img {
-  max-width: 100%;
-  height: 891px;
-  margin-top: 20px;
-}
 h2 {
-  font-family: Europa-Bold;
+  font-family: "Europa-Bold";
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
 }
-.intro h2 {
-  color: #d0d2ad;
-}
-.intro p {
-  color: #d0d2ad;
-  text-align: center;
-  font-family: Europa-Regular;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-.intro {
-  background-color: #db5e5d;
-  padding: 120px;
-}
-.burger {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  z-index: 1; /* permet de faire passer le lien devant le menu */
-}
 
-.menu {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 50px;
-  background: #ccc;
-  opacity: 0; /* par défaut, le menu a une opacité de 0 */
-  pointer-events: none; /* par défaut, le menu ne peut pas être cliqué */
-  transition: opacity 0.3s; /* on ajoute une transition pour que l'ouverture se fasse de façon fluide */
 }
 
 .menu.is-active {
