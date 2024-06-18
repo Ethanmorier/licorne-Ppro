@@ -140,10 +140,6 @@ h1 {
   }
   33% {
     opacity: 1;
-    background: #3d3133;
-  }
-  66% {
-    opacity: 1;
     background: #db5e5d;
   }
   66% {
@@ -152,14 +148,12 @@ h1 {
   }
 }
 
-/* Apply animation to elements */
 .t-blonde {
   animation: imageAnim 6s infinite;
 }
 
 .t-brune {
   animation: imageAnim 6s infinite;
-  animation-delay: 2s; /* Delays the animation to start at 33% */
 }
 
 .t-ipa {
@@ -173,13 +167,11 @@ h1 {
 }
 .l-intro .container h2 {
   color: #d0d2ad;
-  font-family: Europa-Bold;
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
   width: auto;
-  margin-top: 130px;
 }
 .l-intro .container p {
   color: #d0d2ad;
@@ -190,7 +182,6 @@ h1 {
   font-weight: 400;
   line-height: normal;
 }
-.l-intro .container br {
   width: 657px;
   height: var(--Number, 2px);
   color: #d0d2ad;
