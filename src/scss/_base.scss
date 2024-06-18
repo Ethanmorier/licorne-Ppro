@@ -331,3 +331,13 @@ h1 {
   margin-left: 120px;
   margin-right: 224px;
 }
+
+.header-container {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  right: 60px;
+  display: flex;
+  z-index: 3;
+  justify-content: space-between;
+}
