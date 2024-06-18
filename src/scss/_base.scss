@@ -358,3 +358,15 @@ h1 {
   flex-direction: column;
   align-items: center;
 }
+.container-fluid hr {
+  border: none;
+  width: 710px;
+  height: var(--Number, 2px);
+  color: #d0d2ad;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0;
+  border-top: 2px solid #d0d2ad;
+}
