@@ -102,6 +102,17 @@ h1 {
 
 .t-brune {
   animation: imageAnim 6s infinite;
+  animation-delay: 2s;
+  h1 {
+    color: #d0d2ad;
+  }
+}
+.t-ipa {
+  animation: imageAnim 6s infinite;
+  animation-delay: 2s;
+  h1 {
+    color: #db5e5d;
+  }
 }
 
 .t-ipa {
