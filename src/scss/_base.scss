@@ -50,9 +50,9 @@ h2 {
 
 }
 
-.menu.is-active {
-  opacity: 1; /* avec la classe is-active, le menu a une opacité de 1 */
-  pointer-events: auto; /* avec la classe is-active, le menu peut être cliqué */
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
 h1 {
@@ -60,7 +60,7 @@ h1 {
   text-align: center;
   -webkit-text-stroke-width: 3;
   -webkit-text-stroke-color: #db5e5d;
-  font-family: Europa-Bold;
+  font-family: "Europa-Bold";
   font-size: 170px;
   font-style: normal;
   font-weight: 700;
