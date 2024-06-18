@@ -144,7 +144,15 @@ h1 {
   font-weight: 400;
   line-height: normal;
 }
+.l-intro .container hr {
+  border: none;
   width: 657px;
   height: var(--Number, 2px);
   color: #d0d2ad;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0;
+  border-top: 2px solid #d0d2ad;
 }
