@@ -348,3 +348,8 @@ h1 {
   gap: 10px;
 }
 
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
