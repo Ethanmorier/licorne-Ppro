@@ -67,3 +67,65 @@
 .l-ou-nous-trouver {
   background: #d0d2ad;
 }
+.footer {
+  font-family: "Europa-bold";
+  background-color: #db5e5d;
+  color: #d0d2ad;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-section {
+  flex: 1 1 200px;
+  margin: 10px;
+}
+
+.newsletter h2 {
+  font-size: 1.5rem;
+}
+
+.newsletter-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.newsletter-input input {
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid #d0d2ad;
+  border-radius: 5px;
+}
+
+.newsletter-input button {
+  background-color: #d0d2ad;
+  color: #db5e5d;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.social-icons {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+.address h3 {
+  font-size: 1.2rem;
+}
+
+.policies p {
+  margin: 5px 0;
+}
+
+.copyright {
+  flex-basis: 100%;
+  margin-top: 20px;
+  font-size: 0.8rem;
+}
