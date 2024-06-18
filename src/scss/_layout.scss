@@ -1,3 +1,15 @@
+.menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 50px;
+  background: #d0d2ad;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
 .l-intro {
   background: #db5e5d;
   width: auto;
