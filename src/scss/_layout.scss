@@ -10,6 +10,23 @@
   pointer-events: none;
   transition: opacity 0.3s;
 }
+
+.menu.is-active {
+  opacity: 1;
+  pointer-events: auto;
+}
+.menu li {
+  color: #3d3133;
+  text-align: center;
+  font-family: Europa-Bold;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 129px;
+  margin-bottom: 129px;
+}
 .l-intro {
   background: #db5e5d;
   width: auto;
