@@ -73,30 +73,6 @@ h1 {
   align-items: center;
 }
 
-/* ====================================
-// base rules
-// ==================================== */
-
-.image-and-text img {
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.image-and-beer-container {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-}
-
-.image-and-text {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: #d0d2ad;
-  transition: 0.2s;
-}
-
 @keyframes imageAnim {
   0% {
     opacity: 1;
