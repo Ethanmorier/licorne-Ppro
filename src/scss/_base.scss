@@ -59,6 +59,7 @@ a {
 h1 {
   color: #db5e5d;
   text-align: center;
+  -webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: #db5e5d;
   font-family: "Europa-Bold";
   font-size: 170px;
@@ -73,6 +74,8 @@ h1 {
 
 @keyframes imageAnim {
   0% {
+    opacity: 1;
+    background: initial;
   }
   33% {
     opacity: 0;
