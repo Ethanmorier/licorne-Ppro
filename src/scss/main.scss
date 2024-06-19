@@ -2,3 +2,12 @@
 @import "layout";
 @import "modules/example";
 @import "bootstrap/scss/bootstrap-grid";
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("../../fonts/Europa-bold.otf") format("otf"),
+    url("../../fonts/Europa-regular.otf") format("otf"),
+    url("../../fonts/Europa-light.otf") format("otf");
+
+  font-weight: normal;
+  font-style: normal;
+}
